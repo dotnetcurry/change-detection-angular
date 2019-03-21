@@ -1,0 +1,9 @@
+<button style="margin-left: 5px;" class="btn btn-primary" (click)="toggleVisited(place)">Toggle Visited for Red Rocks Park</button>
+<br /> 
+<br /> 
+<div class="row">
+  <app-place *ngFor="let place of places" [placeDetails]="place"></app-place>
+</div>
+<div class="row">
+  <app-place-cd [placeDetails]="places[2]"></app-place-cd>
+</div>

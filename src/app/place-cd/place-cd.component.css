@@ -1,0 +1,16 @@
+.place-name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.visited-place {
+  background-color: azure;
+}
+
+.place-changed {
+  background-color: palegreen;
+}
+
+.card {
+  margin-top: 10px;
+}

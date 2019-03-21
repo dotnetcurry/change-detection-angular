@@ -1,0 +1,11 @@
+<div class="col-md-3">
+  <div class="card" [ngClass]="placeDetails.isVisited ? 'visited-place': ''" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{placeDetails.name}}</h5>
+      <div>City: {{placeDetails.city}}</div>
+      <div>Country: {{placeDetails.country}}</div>
+      <div>Visited: {{IsVisited}}</div>
+      <div>Rating: {{placeDetails.rating}}</div>
+    </div>
+  </div>
+</div>
